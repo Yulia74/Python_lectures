@@ -1,5 +1,9 @@
 path='file.txt'
-data=open(path, 'r')
+data=open('file.txt', 'r')
 for line in data:
     print(line)
 data.close()
+
+
+
+
